@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<script>
+		var SmallPizza = prompt("hoeveel small pizza's wil je? 1 small pizza kost 5");
+		var MediumPizza = prompt("hoeveel medium pizza's wil je? 1 medium pizza kost 7");
+		var LargePizza = prompt("hoeveel large pizza's wil je? 1 large pizza kost 10");
+
+		const SMALLPRICE = 5;
+		var SmallPizzaTotal = (SMALLPRICE * SmallPizza);
+
+		const MEDIUMPRICE = 7;
+		var MediumPizzaTotal = (MEDIUMPRICE * MediumPizza);
+
+		const LARGEPRICE = 10;
+		var LargePizzaTotal = (LARGEPRICE * LargePizza);
+
+		document.write(SmallPizza + " " + "Small Pizza's =" + " " + SMALLPRICE + "<br>" + MediumPizza + " " + "Medium Pizza's =" + " " +MEDIUMPRICE + "<br>" + LargePizza + " " + "Large Pizza's =" + " " + LARGEPRICE + "<br>");
+
+		var TotalPrice = SmallPizzaTotal + MediumPizzaTotal + LargePizzaTotal;
+		document.write("totaal prijs:" + " " + TotalPrice);
+	</script>
+
+</body>
+</html>
